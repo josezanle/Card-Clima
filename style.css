@@ -12,7 +12,9 @@ body {
     flex-flow: column;
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to right, #160f0f 0%, rgb(0, 0, 0) 100%);
+    background: url(silhouette-of-trees-during-sunset-1723637.jpg) center no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(1em);
 }
 
 .card {
@@ -25,7 +27,7 @@ body {
     padding: .5em;
     border: .5em solid black;
     border-radius: 1em;
-    box-shadow: 1rem 1rem 2rem black, inset 1rem 1rem 2rem black, inset -1rem -1rem 2rem black;
+    box-shadow: 1rem 1rem 2rem black;
     background: url(silhouette-of-trees-during-sunset-1723637.jpg) center no-repeat;
     background-size: cover;
 }
@@ -43,6 +45,7 @@ body {
 
 .top-icons p {
     flex: 1;
+    font-weight: 700;
 }
 
 .top-icons span {
@@ -65,7 +68,7 @@ body {
 .search {
     flex: 1;
     text-align: center;
-    font-size: .9em;
+    font-size: .7em;
 }
 
 .pronostico {
